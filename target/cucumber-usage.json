@@ -1,0 +1,92 @@
+[
+  {
+    "source": "^check for other paramerters of report$",
+    "steps": [
+      {
+        "name": "check for other paramerters of report",
+        "aggregatedDurations": {
+          "average": 0.4353516,
+          "median": 0.4353516
+        },
+        "durations": [
+          {
+            "duration": 0.4353516,
+            "location": "C:/Users/mukannap/git/WeatherCheck/src/test/resources/Features/WeatherCheck.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Navigate to weathers tab$",
+    "steps": [
+      {
+        "name": "Navigate to weathers tab",
+        "aggregatedDurations": {
+          "average": 1.3129173,
+          "median": 1.3129173
+        },
+        "durations": [
+          {
+            "duration": 1.3129173,
+            "location": "C:/Users/mukannap/git/WeatherCheck/src/test/resources/Features/WeatherCheck.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Search for the city$",
+    "steps": [
+      {
+        "name": "Search for the city",
+        "aggregatedDurations": {
+          "average": 3.1700082,
+          "median": 3.1700082
+        },
+        "durations": [
+          {
+            "duration": 3.1700082,
+            "location": "C:/Users/mukannap/git/WeatherCheck/src/test/resources/Features/WeatherCheck.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Validate the city in map$",
+    "steps": [
+      {
+        "name": "Validate the city in map",
+        "aggregatedDurations": {
+          "average": 0.4338685,
+          "median": 0.4338685
+        },
+        "durations": [
+          {
+            "duration": 0.4338685,
+            "location": "C:/Users/mukannap/git/WeatherCheck/src/test/resources/Features/WeatherCheck.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Launch NDTV page$",
+    "steps": [
+      {
+        "name": "Launch NDTV page",
+        "aggregatedDurations": {
+          "average": 4.7028023,
+          "median": 4.7028023
+        },
+        "durations": [
+          {
+            "duration": 4.7028023,
+            "location": "C:/Users/mukannap/git/WeatherCheck/src/test/resources/Features/WeatherCheck.feature:7"
+          }
+        ]
+      }
+    ]
+  }
+]

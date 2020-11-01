@@ -1,0 +1,132 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "#To compare weather information from UI \u0026 API"
+      }
+    ],
+    "line": 5,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6734168100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MapPage.beforeScenario()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Compare weather information scenario",
+        "description": "",
+        "id": "compare-weather-information-from-ndtv-ui-\u0026-openweathermap-api;compare-weather-information-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 71500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MapPage.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4702802300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch NDTV page",
+            "match": {
+              "location": "MapPage.launch_NDTV_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1312917300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Navigate to weathers tab",
+            "match": {
+              "location": "MapPage.navigate_to_weathers_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3170008200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Search for the city",
+            "match": {
+              "location": "MapPage.search_for_the_city()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 433868500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Validate the city in map",
+            "match": {
+              "location": "MapPage.validate_the_city_in_map()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 435351600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "check for other paramerters of report",
+            "match": {
+              "location": "MapPage.check_for_other_paramerters_of_report()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "Get Temparature using API",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "Compare temperatures from UI and API",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Compare weather information from NDTV UI \u0026 Openweathermap API",
+    "description": "",
+    "id": "compare-weather-information-from-ndtv-ui-\u0026-openweathermap-api",
+    "keyword": "Feature",
+    "uri": "C:/Users/mukannap/git/WeatherCheck/src/test/resources/Features/WeatherCheck.feature"
+  }
+]
