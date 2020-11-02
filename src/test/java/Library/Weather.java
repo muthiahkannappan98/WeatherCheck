@@ -1,25 +1,39 @@
 package Library;
 
+/*Name and Details: Weather class with its attributes 
+created: 11/1/2020
+author: muthiah.kannappan*/
+
 public class Weather {
 	private String city;
-	private int humidity;
-	  private int degree;
-	  
-	  public Weather() {}
-	  
-	public String getCity() { return city; }
-	  public void setCity(String city) {
-	    this.city = city;
-	  }
-	  
-	  public int getHumidity() { return humidity; }
-	  public void setHumidity(int humidity) {
-	    this.humidity = humidity;
-	  }
-	 
-	  public int getDegree() { return degree; }
-	  public void setDegree(int degree) {
-	    this.degree = degree;
-	  }
+	private float humidity;
+	private float degree;
+
+	public Weather() {
+	}
+
+	public String getCity() {
+		return city;
+	}
+
+	public void setCity(String city) {
+		this.city = city;
+	}
+
+	public float getHumidity() {
+		return humidity;
+	}
+
+	public void setHumidity(float humidity) {
+		this.humidity = humidity;
+	}
+
+	public float getDegree() {
+		return degree;
+	}
+
+	public void setDegree(float degree) {
+		this.degree = degree;
+	}
 
 }
