@@ -5,13 +5,31 @@
       {
         "name": "check for other paramerters of report",
         "aggregatedDurations": {
-          "average": 0.4353516,
-          "median": 0.4353516
+          "average": 0.4188003,
+          "median": 0.4188003
         },
         "durations": [
           {
-            "duration": 0.4353516,
+            "duration": 0.4188003,
             "location": "C:/Users/mukannap/git/WeatherCheck/src/test/resources/Features/WeatherCheck.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Compare temperatures from UI and API$",
+    "steps": [
+      {
+        "name": "Compare temperatures from UI and API",
+        "aggregatedDurations": {
+          "average": 0.7069043,
+          "median": 0.7069043
+        },
+        "durations": [
+          {
+            "duration": 0.7069043,
+            "location": "C:/Users/mukannap/git/WeatherCheck/src/test/resources/Features/WeatherCheck.feature:13"
           }
         ]
       }
@@ -23,12 +41,12 @@
       {
         "name": "Navigate to weathers tab",
         "aggregatedDurations": {
-          "average": 1.3129173,
-          "median": 1.3129173
+          "average": 2.398572399,
+          "median": 2.398572399
         },
         "durations": [
           {
-            "duration": 1.3129173,
+            "duration": 2.398572399,
             "location": "C:/Users/mukannap/git/WeatherCheck/src/test/resources/Features/WeatherCheck.feature:8"
           }
         ]
@@ -41,13 +59,31 @@
       {
         "name": "Search for the city",
         "aggregatedDurations": {
-          "average": 3.1700082,
-          "median": 3.1700082
+          "average": 2.855192301,
+          "median": 2.855192301
         },
         "durations": [
           {
-            "duration": 3.1700082,
+            "duration": 2.855192301,
             "location": "C:/Users/mukannap/git/WeatherCheck/src/test/resources/Features/WeatherCheck.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Get Temparature using API$",
+    "steps": [
+      {
+        "name": "Get Temparature using API",
+        "aggregatedDurations": {
+          "average": 2.2755441,
+          "median": 2.2755441
+        },
+        "durations": [
+          {
+            "duration": 2.2755441,
+            "location": "C:/Users/mukannap/git/WeatherCheck/src/test/resources/Features/WeatherCheck.feature:12"
           }
         ]
       }
@@ -59,12 +95,12 @@
       {
         "name": "Validate the city in map",
         "aggregatedDurations": {
-          "average": 0.4338685,
-          "median": 0.4338685
+          "average": 0.144571699,
+          "median": 0.144571699
         },
         "durations": [
           {
-            "duration": 0.4338685,
+            "duration": 0.144571699,
             "location": "C:/Users/mukannap/git/WeatherCheck/src/test/resources/Features/WeatherCheck.feature:10"
           }
         ]
@@ -77,12 +113,12 @@
       {
         "name": "Launch NDTV page",
         "aggregatedDurations": {
-          "average": 4.7028023,
-          "median": 4.7028023
+          "average": 3.5338314,
+          "median": 3.5338314
         },
         "durations": [
           {
-            "duration": 4.7028023,
+            "duration": 3.5338314,
             "location": "C:/Users/mukannap/git/WeatherCheck/src/test/resources/Features/WeatherCheck.feature:7"
           }
         ]

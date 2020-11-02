@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="16.789188">
-    <testcase classname="Compare weather information from NDTV UI &amp; Openweathermap API" name="Compare weather information scenario" time="16.789188">
-        <skipped><![CDATA[Given Launch NDTV page......................................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.757996">
+    <testcase classname="Compare weather information from NDTV UI &amp; Openweathermap API" name="Compare weather information scenario" time="18.757996">
+        <system-out><![CDATA[Given Launch NDTV page......................................................passed
 And Navigate to weathers tab................................................passed
 When Search for the city....................................................passed
 Then Validate the city in map...............................................passed
 And check for other paramerters of report...................................passed
-When Get Temparature using API..............................................undefined
-And Compare temperatures from UI and API....................................undefined
-]]></skipped>
+When Get Temparature using API..............................................passed
+And Compare temperatures from UI and API....................................passed
+]]></system-out>
     </testcase>
 </testsuite>

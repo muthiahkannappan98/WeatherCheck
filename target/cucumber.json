@@ -16,7 +16,7 @@
         "before": [
           {
             "result": {
-              "duration": 6734168100,
+              "duration": 6424524299,
               "status": "passed"
             },
             "match": {
@@ -31,7 +31,7 @@
         "after": [
           {
             "result": {
-              "duration": 71500,
+              "duration": 55199,
               "status": "passed"
             },
             "match": {
@@ -44,7 +44,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4702802300,
+              "duration": 3533831400,
               "status": "passed"
             },
             "line": 7,
@@ -56,7 +56,7 @@
           },
           {
             "result": {
-              "duration": 1312917300,
+              "duration": 2398572399,
               "status": "passed"
             },
             "line": 8,
@@ -68,7 +68,7 @@
           },
           {
             "result": {
-              "duration": 3170008200,
+              "duration": 2855192301,
               "status": "passed"
             },
             "line": 9,
@@ -80,7 +80,7 @@
           },
           {
             "result": {
-              "duration": 433868500,
+              "duration": 144571699,
               "status": "passed"
             },
             "line": 10,
@@ -92,7 +92,7 @@
           },
           {
             "result": {
-              "duration": 435351600,
+              "duration": 418800300,
               "status": "passed"
             },
             "line": 11,
@@ -104,20 +104,26 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 2275544100,
+              "status": "passed"
             },
             "line": 12,
             "name": "Get Temparature using API",
-            "match": {},
+            "match": {
+              "location": "RestPage.get_Temparature_using_API()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 706904300,
+              "status": "passed"
             },
             "line": 13,
             "name": "Compare temperatures from UI and API",
-            "match": {},
+            "match": {
+              "location": "RestPage.compare_temperatures_from_UI_and_API()"
+            },
             "keyword": "And "
           }
         ]

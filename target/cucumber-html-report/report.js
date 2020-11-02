@@ -17,7 +17,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 6734168100,
+  "duration": 6424524299,
   "status": "passed"
 });
 formatter.scenario({
@@ -67,47 +67,53 @@ formatter.match({
   "location": "MapPage.launch_NDTV_page()"
 });
 formatter.result({
-  "duration": 4702802300,
+  "duration": 3533831400,
   "status": "passed"
 });
 formatter.match({
   "location": "MapPage.navigate_to_weathers_tab()"
 });
 formatter.result({
-  "duration": 1312917300,
+  "duration": 2398572399,
   "status": "passed"
 });
 formatter.match({
   "location": "MapPage.search_for_the_city()"
 });
 formatter.result({
-  "duration": 3170008200,
+  "duration": 2855192301,
   "status": "passed"
 });
 formatter.match({
   "location": "MapPage.validate_the_city_in_map()"
 });
 formatter.result({
-  "duration": 433868500,
+  "duration": 144571699,
   "status": "passed"
 });
 formatter.match({
   "location": "MapPage.check_for_other_paramerters_of_report()"
 });
 formatter.result({
-  "duration": 435351600,
+  "duration": 418800300,
   "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "RestPage.get_Temparature_using_API()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 2275544100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RestPage.compare_temperatures_from_UI_and_API()"
+});
+formatter.result({
+  "duration": 706904300,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 71500,
+  "duration": 55199,
   "status": "passed"
 });
 });

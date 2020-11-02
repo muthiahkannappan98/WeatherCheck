@@ -8,5 +8,5 @@ Feature: Compare weather information from NDTV UI & Openweathermap API
     When Search for the city                     # MapPage.search_for_the_city()
     Then Validate the city in map                # MapPage.validate_the_city_in_map()
     And check for other paramerters of report    # MapPage.check_for_other_paramerters_of_report()
-    When Get Temparature using API
-    And Compare temperatures from UI and API
+    When Get Temparature using API               # RestPage.get_Temparature_using_API()
+    And Compare temperatures from UI and API     # RestPage.compare_temperatures_from_UI_and_API()
